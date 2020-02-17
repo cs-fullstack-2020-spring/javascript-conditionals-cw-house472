@@ -64,7 +64,7 @@ let num1= prompt("Enter a number")
 let num2= prompt("Enter another number")
 let total =parseInt(num1 + num2)
  if((num1+num2)/2){
-    console.log("The sum  is even") 
+    alet("The sum  is even") 
 
  }
 
