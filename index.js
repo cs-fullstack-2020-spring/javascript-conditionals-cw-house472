@@ -14,15 +14,15 @@
 // ```
 // THAT IS...
 // NOT CORRECT
-// let word1=prompt("Enter a word")
-// let word2=prompt("another word")
-//  anyWord=word1
-//  theSameword=word2
-// if(anyWord == theSameword){
-//     console.log("THAT IS CORRECT")
-//     } else{
-//         console.log("THAT IS NOT CORRECT")
-//     }
+let word1=prompt("Enter a word")
+let word2=prompt("another word")
+ anyWord=word1
+ theSameword=word2
+if(anyWord == theSameword){
+    console.log("THAT IS CORRECT")
+    } else{
+        console.log("THAT IS NOT CORRECT")
+    }
 
 
 
@@ -40,13 +40,13 @@
 // ```
 // [NUMBER] is negative.
 
-// let num1 = prompt("Enter a number")
-// if(num1 >0){
-//     console.log(num1 = "positive")
-// }
-// else{
-//     console.log("Negative")
-// }
+let num1 = prompt("Enter a number")
+if(num1 >0){
+    console.log(num1 = "positive")
+}
+else{
+    console.log("Negative")
+}
 
 
 // ```
@@ -60,24 +60,18 @@
 // The sum of [FIRST NUMBER] and [SECOND NUMBER] is odd.
 // ```
 
-// let num1=prompt("Enter a number")
-// let num2=prompt("Enter another number")
-// let total (num1+ num2)
-// if parseInt(num1+num2) 
+let num1= prompt("Enter a number")
+let num2= prompt("Enter another number")
+let total =parseInt(num1 + num2)
+ if((num1+num2)/2){
+    console.log("The sum  is even") 
+
+ }
 
 
 
 // ### Problem 4 :
 // Define a variable called `secretWord` with the string value "secret". Ask the user to enter a word. Ask the user to enter another word. If the words are the same OR one of the words matches `secretWord` print 
-
-let secretWord= ("secret")
-let word1 =("Enter a Word")
-let word2=("Enter another word")
-if(word1 == word2){
-    console.log(secretWord)
-}
-
-
 // ```
 // You got in...but we don't know how
 // ```
@@ -97,6 +91,24 @@ if(word1 == word2){
 // ```
 // Locked Out
 // ```
+let secretWord= ("secret")
+let word1 =prompt("Enter a Word")
+let word2=prompt("Enter another word")
+if(word1 == word2 || word1 == secretWord || word2 == secretWord){
+    console.log("You got in...but we don't know how")
+} 
+   else if(word1==word2 != secretWord){
+       console.log("You got in...but only because your words matched")
+   }
+   else if(word1 || word2 == secretWord){
+       console.log("You got ins...but only because one of your words matched the secret word")
+   }
+   else if(word1 == word2 && secretWord){
+       console.log("You got in")
+
+   }  else{
+    console.log("Locked")
+   }
 
 
 // ### Challenge:
