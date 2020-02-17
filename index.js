@@ -14,10 +14,10 @@
 // ```
 // THAT IS...
 // NOT CORRECT
-
-
-// let anyWord= ("any word")
-// let theSameword=("any word")
+// let word1=prompt("Enter a word")
+// let word2=prompt("another word")
+//  anyWord=word1
+//  theSameword=word2
 // if(anyWord == theSameword){
 //     console.log("THAT IS CORRECT")
 //     } else{
@@ -60,16 +60,24 @@
 // The sum of [FIRST NUMBER] and [SECOND NUMBER] is odd.
 // ```
 
-let num1=prompt("Enter a number")
-let num2=prompt("Enter another number")
-if(parseInt(num1) + parseInt(num2) == even) 
-    alert("The sum of  num1 + num2  is even")
-e
+// let num1=prompt("Enter a number")
+// let num2=prompt("Enter another number")
+// let total (num1+ num2)
+// if parseInt(num1+num2) 
 
 
 
 // ### Problem 4 :
 // Define a variable called `secretWord` with the string value "secret". Ask the user to enter a word. Ask the user to enter another word. If the words are the same OR one of the words matches `secretWord` print 
+
+let secretWord= ("secret")
+let word1 =("Enter a Word")
+let word2=("Enter another word")
+if(word1 == word2){
+    console.log(secretWord)
+}
+
+
 // ```
 // You got in...but we don't know how
 // ```
@@ -89,6 +97,7 @@ e
 // ```
 // Locked Out
 // ```
+
 
 // ### Challenge:
 // Ask the user to enter a day of the week. Print the corresponding Spanish word. If they do not input a day of the week print "That is not a day of the week in English."
